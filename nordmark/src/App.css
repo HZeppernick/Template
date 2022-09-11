@@ -617,3 +617,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.text-center.text-sm-end.col-sm-6 {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
