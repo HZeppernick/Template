@@ -3,7 +3,7 @@ import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Nordmark } from './components/Nordmark';
-import { Projects } from './components/Projects';
+import { Veranstaltungen } from './components/Veranstaltungen';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <Banner />
       <Nordmark />
-      <Projects />
+      <Veranstaltungen />
       <Contact />
       <Footer />
     </div>

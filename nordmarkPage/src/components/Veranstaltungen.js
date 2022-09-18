@@ -1,28 +1,13 @@
 import { Nav, Tab, Col, Container, Row } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard"
-import colorSharp2 from "../assets/img/color-sharp2.png"
-import projImg1 from "../assets/img/project-img1.png"
-import projImg2 from "../assets/img/project-img2.png"
-import projImg3 from "../assets/img/project-img3.png"
+import projImg1 from "../assets/img/fox-free-icon-font.png"
+import projImg2 from "../assets/img/beer-free-icon-font.png"
+import projImg3 from "../assets/img/balloons-free-icon-font.png"
 
-export const Projects = () => {
 
-    const projects = [
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
+export const Veranstaltungen = () => {
+
+    const veranstaltungen = [
         {
             title: "Business Startup",
             description: "Design & Development",
@@ -41,12 +26,12 @@ export const Projects = () => {
     ]
 
     return(
-        <section className="project" id="project">
+
+        <section className="veranstaltungen" id="veranstaltungen">
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut quis magnam tenetur eligendi beatae alias. Dicta mollitia repellendus veniam vero, nulla perferendis voluptatem, debitis odio eum praesentium perspiciatis rem?</p>
+                        <h2>Veranstaltungen</h2>
                         <Tab.Container id="project-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
@@ -62,16 +47,14 @@ export const Projects = () => {
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
                                 <Row>
-                                    {
-                                        projects.map((project, index) => {
-                                            return(
-                                                <ProjectCard
-                                                    key={index}
-                                                    {...project} 
-                                                    />
-                                            )
-                                        })
-                                    }
+                                <div className="column">
+                                    <img src={projImg1} alt="Image" />
+                                    
+                                    <img src={projImg2} alt="Image" />
+                                    
+                                    <img src={projImg3} alt="Image" />
+                                    
+                                </div>
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
@@ -85,7 +68,6 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
         </section>
     )
 }

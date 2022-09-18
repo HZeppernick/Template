@@ -43,7 +43,7 @@ export const NavBar = () => {
                 <Nav className="me-auto">
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                     <Nav.Link href="#nordmark" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Die Nordmark</Nav.Link>
-                    <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Projects</Nav.Link>
+                    <Nav.Link href="#veranstaltungen" className={activeLink === 'veranstaltungen' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('veranstaltungen')}>Veranstaltungen</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
@@ -51,7 +51,7 @@ export const NavBar = () => {
                         <a href="#"><img src={navIcon3} alt=""/></a>
                     </div>
                     <button className="vvd" onClick={() => console.log('connect')}>
-                        <Nav.Link href="#connect" onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
+                        <Nav.Link href="#connect" onClick={() => onUpdateActiveLink('connect')}>Kontakt</Nav.Link>
                     </button>
                 </span>
                 </Navbar.Collapse>

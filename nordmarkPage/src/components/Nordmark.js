@@ -35,12 +35,18 @@ export const Nordmark = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
+                            <br />
                             <h2>
                                 Die Nordmark
                             </h2>
+                            <br />
                             <p>Die Nordmark ist eine Verbindung, in welcher sich Studenten aus den verschiedensten Fakultäten zusammenfinden um gemeinsam Kultur zu erleben und selber zu gestalten. Zu diesem Zweck verfügen wir über ein eigenes Haus, so dass wir immer einen Probenraum für unseren Chor oder Platz für eine Theateraufführung haben. Wir nutzen das Haus natürlich auch für andere Veranstaltungen. Ob Pokerturnier, Kochabend, Vorträge oder eine Cocktailparty, bei uns ist immer was los.
                             <br />
-                            <br />Wenn Ihr also neu seid in unserer schönen Stadt und auch ausserhalb Eurer Fakultät Bekanntschaften und Freundschaften schließen wollt, seid Ihr bei uns herzlich eingeladen.</p>
+                            <br />Wenn Ihr also neu seid in unserer schönen Stadt und auch ausserhalb Eurer Fakultät Bekanntschaften und Freundschaften schließen wollt, seid Ihr bei uns herzlich eingeladen.
+                            <br></br>
+                            <br></br>Uns verbindet der Spaß an Musik und Kultur sowie das couleurstudentische Brauchtum. 
+                            Wir sind eine farbenführende, nichtschlagende Studentenverbindung. Ein Männerbund, der für eine lebenslange Freundschaft steht. </p>
+                            
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
