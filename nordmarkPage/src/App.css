@@ -413,6 +413,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .veranstaltungen .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
+.veranstaltungen .eventBox {
+  display: flex;
+}
+.veranstaltungen .eventBox1 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBox2 {
+  width: 50%;
+  display: inline-block;
+
+}
+.veranstaltungen .eventBox3 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBox4 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBox5 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBox img{
+  width: 20%;
+}
+
+.veranstaltungen .eventBoxRow2 {
+  display: flex;
+}
+.veranstaltungen .eventBoxR21 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBoxRow2 img{
+  width: 20%;
+}
+
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
@@ -484,7 +523,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 70%;
 }
 .contact h2 {
 	font-size: 45px;

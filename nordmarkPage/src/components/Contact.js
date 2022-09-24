@@ -1,6 +1,6 @@
 import { useRef } from "react"
 import { Container, Col, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg"
+import contactImg from "../assets/img/envelope-free-icon-font.png"
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
