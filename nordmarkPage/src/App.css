@@ -438,7 +438,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .veranstaltungen .eventBox img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
+}
+.veranstaltungen .eventBox h4{
+  text-align: center;
+}
+.veranstaltungen .eventBox h5{
+  text-align: center;
 }
 
 .veranstaltungen .eventBoxRow2 {
@@ -449,7 +458,72 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .veranstaltungen .eventBoxRow2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
+}
+.veranstaltungen .eventBoxRow2 h4{
+  text-align: center;
+}
+.veranstaltungen .eventBoxRow2 h5{
+  text-align: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBox h4 {
+    font-size: 23px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBox h4 {
+    font-size: 12px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBox h5 {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBox h5 {
+    font-size: 9px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBoxRow2 h4 {
+    font-size: 23px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBoxRow2 h4 {
+    font-size: 12px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBoxRow2 h5 {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBoxRow2 h5 {
+    font-size: 9px;
+  }
 }
 
 .nav-link#projects-tabs-tab-first {

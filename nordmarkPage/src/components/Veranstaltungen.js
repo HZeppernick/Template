@@ -47,7 +47,7 @@ export const Veranstaltungen = () => {
                         <div className="eventBoxRow2">
                             <div className="eventBoxRow21">
                                 <img src={projImg5} alt="" />
-                                <h4>Feuerzangenbowle</h4>
+                                <h4>Feuerzangen-bowle</h4>
                                 <h5>15.12.2022</h5>
                             </div>
                             <div className="eventBoxRow22">
