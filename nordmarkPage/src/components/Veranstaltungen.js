@@ -1,4 +1,4 @@
-import { Nav, Tab, Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import projImg1 from "../assets/img/fox-free-icon-font.png"
 import projImg2 from "../assets/img/beer-free-icon-font.png"
 import projImg3 from "../assets/img/balloons-free-icon-font.png"
@@ -17,6 +17,7 @@ export const Veranstaltungen = () => {
                     <Col>
                         <h2>Veranstaltungen</h2>
                         <br />
+                        <h4>im Wintersemester 2022/2023</h4>
                         <br />
                         <br />
                         <div className="eventBox">
@@ -29,6 +30,7 @@ export const Veranstaltungen = () => {
                             <img src={projImg2} alt="" />
                             <h4>Ankneipe</h4>
                             <h5>15.10.2022</h5>
+                            <p>20:00 c.t.</p>
                         </div>
                         <div className="eventBox3">
                             <img src={projImg3} alt="" />
@@ -54,6 +56,7 @@ export const Veranstaltungen = () => {
                                 <img src={projImg2} alt="" />
                                 <h4>Gotenkommers</h4>
                                 <h5>16.12.2022</h5>
+                                <p>20:00 c.t.</p>
                             </div>
                             <div className="eventBoxRow23">
                                 <img src={projImg6} alt="" />
@@ -64,6 +67,7 @@ export const Veranstaltungen = () => {
                                 <img src={projImg2} alt="" />
                                 <h4>Abkneipe</h4>
                                 <h5>25.02.2023</h5>
+                                <p>20:00 c.t.</p>
                             </div>
                         </div>
                     </Col>

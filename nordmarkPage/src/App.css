@@ -363,6 +363,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
+.veranstaltungen h4 {
+  text-align: center;
+}
 .veranstaltungen p {
   color: #B8B8B8;
   font-size: 18px;
@@ -484,16 +487,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* If the screen size is 601px wide or more, set the font-size of <div> to ..px */
 @media screen and (min-width: 601px) {
   .veranstaltungen .eventBox h5 {
     font-size: 20px;
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px wide or less, set the font-size of <div> to ..px */
 @media screen and (max-width: 600px) {
   .veranstaltungen .eventBox h5 {
+    font-size: 9px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBox p {
+    font-size: 18px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBox p {
     font-size: 9px;
   }
 }
@@ -522,6 +539,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   .veranstaltungen .eventBoxRow2 h5 {
+    font-size: 9px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .veranstaltungen .eventBoxRow2 p {
+    font-size: 18px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .veranstaltungen .eventBoxRow2 p {
     font-size: 9px;
   }
 }
@@ -745,4 +776,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .text-center.text-sm-end.col-sm-6 {
   margin-top: 30px;
   margin-bottom: -30px;
+}
+
+/******** Popup-CSS ********/
+
+.popup {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+}
+
+.popup-inner .close-btn {
+  position:absolute;
+  top: 16px;
+  right: 16px;
+
 }
