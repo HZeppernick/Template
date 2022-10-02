@@ -23,9 +23,6 @@ const form = useRef();
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src={contactImg} alt="Contact Us"/>
-                    </Col>
-                    <Col md={6}>
                         <h2>Schreib uns eine Nachricht</h2>
 
         <form ref={form} onSubmit={sendEmail}>
