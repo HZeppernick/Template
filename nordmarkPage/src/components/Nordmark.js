@@ -40,18 +40,14 @@ export const Nordmark = () => {
                                 Die Nordmark
                             </h2>
                             <br />
-                            <p>Die Nordmark ist eine Verbindung, in welcher sich Studenten aus den verschiedensten Fakultäten zusammenfinden um gemeinsam Kultur zu erleben und selber zu gestalten. Zu diesem Zweck verfügen wir über ein eigenes Haus, so dass wir immer einen Probenraum für unseren Chor oder Platz für eine Theateraufführung haben. Wir nutzen das Haus natürlich auch für andere Veranstaltungen. Ob Pokerturnier, Kochabend, Vorträge oder eine Cocktailparty, bei uns ist immer was los.
+                            <p>Bei der Akademisch-Musikalischen Verbindung Nordmark zu Hamburg treffen sich Studenten aus den verschiedensten Fakultäten, um gemeinsam Kultur zu erleben und selber zu gestalten. Zu diesem Zweck verfügen wir über ein eigenes Haus, sodass wir immer einen Probenraum für unseren Chor oder Platz für eine Theateraufführung haben. Wir nutzen das Haus natürlich auch für andere Veranstaltungen. Ob Pokerturnier, Kochabend, Vorträge oder eine Cocktailparty: Bei uns ist immer was los.
                             <br />
-                            <br />Wenn Ihr also neu seid in unserer schönen Stadt und auch ausserhalb Eurer Fakultät Bekanntschaften und Freundschaften schließen wollt, seid Ihr bei uns herzlich eingeladen.
+                            <br />Wenn ihr also neu seid in unserer schönen Stadt und auch außerhalb eurer Fakultät Bekanntschaften und Freundschaften schließen wollt, seid ihr bei uns herzlich eingeladen.
                             <br></br>
                             <br></br>Uns verbindet der Spaß an Musik und Kultur sowie das couleurstudentische Brauchtum. 
                             Wir sind eine farbenführende, nichtschlagende Studentenverbindung. Ein Männerbund, der für eine lebenslange Freundschaft steht. </p>
                             
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Kneipe</h5>
-                                </div>
 
                                 <div className="item">
                                     <img src={meter2} alt="Image" />

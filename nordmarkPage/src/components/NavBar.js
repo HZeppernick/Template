@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {useEffect, useState} from 'react';
 import logo from '../assets/img/zirkel-transparent.png'
-import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 
 
@@ -47,7 +46,6 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://de-de.facebook.com/AMVNordmark/" target="_blank"><img src={navIcon2} alt=""/></a>
                         <a href="#"><img src={navIcon3} alt=""/></a>
                     </div>
                     <button className="vvd" onClick={() => console.log('connect')}>
