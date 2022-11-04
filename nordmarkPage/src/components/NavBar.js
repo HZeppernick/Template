@@ -46,7 +46,7 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="#"><img src={navIcon3} alt=""/></a>
+                        <a href="https://www.instagram.com/amv_nordmark/" target="_blank" rel="noreferrer"><img src={navIcon3} alt=""/></a>
                     </div>
                     <button className="vvd" onClick={() => console.log('connect')}>
                         <Nav.Link href="#connect" onClick={() => onUpdateActiveLink('connect')}>Kontakt</Nav.Link>

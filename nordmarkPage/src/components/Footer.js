@@ -22,7 +22,7 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href=""><img src={navIcon3} /></a>
+                            <a href="https://www.instagram.com/amv_nordmark/" target="_blank" rel="noreferrer"><img src={navIcon3} /></a>
                         </div>
                         <p>CopyRight 2022. All Right reserved</p>
 

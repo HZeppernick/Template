@@ -1,6 +1,5 @@
 import { useRef } from "react"
 import { Container, Col, Row } from "react-bootstrap";
-import contactImg from "../assets/img/envelope-free-icon-font.png"
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
@@ -10,7 +9,7 @@ const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_g4lkk44', 'template_bzd2hou', form.current, 'rXE0ok-6lXM2Jc-zv')
+    emailjs.sendForm('service_6tgck9z', 'template_uv8kupi', form.current, '1BMfgEz105M__W7Wi')
       .then((result) => {
           alert("Deine Nachricht wurde verschickt!");
       }, (error) => {
