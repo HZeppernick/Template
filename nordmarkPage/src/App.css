@@ -473,6 +473,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 
+
+
+
+
+
+.veranstaltungen .eventBoxRow3 {
+  display: flex;
+}
+.veranstaltungen .eventBoxR31 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBoxRow3 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.veranstaltungen .eventBoxRow3 h4{
+  text-align: center;
+}
+.veranstaltungen .eventBoxRow3 h5{
+  text-align: center;
+}
+
+
+.veranstaltungen .eventBoxRow4 {
+  display: flex;
+}
+.veranstaltungen .eventBoxR41 {
+  width: 50%;
+  display: inline-block;
+}
+.veranstaltungen .eventBoxRow4 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.veranstaltungen .eventBoxRow4 h4{
+  text-align: center;
+}
+.veranstaltungen .eventBoxRow4 h5{
+  text-align: center;
+}
+
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   .veranstaltungen .eventBox h4 {
