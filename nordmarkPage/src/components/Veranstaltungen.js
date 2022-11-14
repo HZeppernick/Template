@@ -81,13 +81,13 @@ export const Veranstaltungen = () => {
                         <div className="eventBoxRow3">
                             <div className="eventBoxRow31">
                                 <img src={projImg5} alt="" />
-                                <h4>Feuerzangen-bowle</h4>
-                                <h5>15.12.2022</h5>
+                                <h4>Feuerzangen-Bowle</h4>
+                                <h5>16.12.2022</h5>
                             </div>
                             <div className="eventBoxRow32">
                                 <img src={projImg2} alt="" />
                                 <h4>Gotenkommers</h4>
-                                <h5>16.12.2022</h5>
+                                <h5>17.12.2022</h5>
                                 <p>20:00 c.t.</p>
                             </div>
                             <div className="eventBoxRow33">
